@@ -1,0 +1,286 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.img {
+    width: 140px;
+    padding: 15px 120px 0px 10px;
+    margin-left: 400px;
+}
+
+.one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: fixed;
+   
+}
+
+.toplist {
+    display: flex;
+    padding: 15px 80px 0px 60px;
+    list-style: none;
+
+}
+
+.toplist a {
+    text-decoration: none;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.list1:hover {
+    background-color: rgb(215, 239, 231);
+    border-radius: 10px;
+}
+
+.free {
+    display: flex;
+    padding: 15px;
+    width: 150px;
+    height: 40px;
+    color: orangered;
+    border-color: orangered;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-width: 1px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.free:hover {
+    background-color: rgb(243, 219, 211);
+}
+
+.trail {
+    display: flex;
+    padding: 15px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: rgb(238, 121, 79);
+    border-color: rgb(203, 114, 81);
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-width: 1px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px 0px 10px;
+
+}
+
+.trail:hover {
+    background-color: orangered;
+}
+
+.company {
+    display: none;
+    list-style: none;
+    position: absolute;
+}
+.company1{
+    box-shadow: 10px 10px #888888;
+    justify-content: left;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+.company1 li{
+    padding: 20px 15px ;
+}
+
+.toplist li:nth-child(4):hover .company {
+    display: block;
+    
+}
+.company1 a:hover{
+    text-decoration: underline;
+ }
+ /* big text starts*/
+.secondlist{
+    
+    height: 300px;
+    
+} 
+.big{
+    
+    display: flex;
+    font-size: 55px;
+    color: rgb(38, 38, 78);
+    font-weight: bold;
+    justify-content: center;
+    padding-top: 100px;
+    
+}
+.bigpara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    color:rgb(46, 47, 93) }
+
+ /* big text* ends*/
+ /* third list starts*/
+.thirdlist{
+    background-color: rgb(235, 245, 247);
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.three{
+    padding: 100px 50px;
+    
+}
+.sales,.support,.chat{
+    padding: 25px 0px 25px 10px;
+    border: 1px solid black;
+    height: 150px;
+    width: 550px;
+    border-radius: 25px;
+    background-color:white;
+    margin-top: 50px;
+    display: flex;
+    border-color: rgb(203, 203, 227) ;
+}
+.support a {
+    color: red;
+    text-decoration: none;
+    
+}
+.chat a {
+    color: red;
+    text-decoration: none;
+    
+}
+.head{
+    font-size:25px;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+
+#icon{
+    display: flex;
+    margin: 5px 25px;
+    padding: 15px ;
+    font-size: 3.0rem;
+    width: max-content;
+    background-color: rgb(232, 232, 243)  ;
+    border: 1px solid rgb(203, 203, 227);
+    border-radius: 15px;
+    color: blue;
+    text-decoration: none;
+}
+
+.support:hover,.chat:hover{
+    box-shadow: 10px 10px #888888;
+    cursor: pointer;
+}
+/* login box starts*/
+.login{
+    margin-top:100px;
+    height: 700px;
+    width: 400px;
+    border-radius: 25px;
+    padding: 25px 50px;
+    box-shadow: 10px 10px #c7c6c6;
+    border: 1px solid rgb(203, 203, 227);
+    background-color: white;
+    align-items: center;
+}
+.login h1{
+    text-align: center;
+    font-size: 20px;
+}
+.login input{
+    width: 90%;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(191, 188, 188);
+    margin: 10px 25px 20px 15px;
+    
+}
+.login input:hover{
+    border-color: black;
+
+}
+.login label{
+    font-size: larger;
+    margin: 15px;
+    font-size: 16px;
+    color: #888888;
+}
+.login button{
+    background-color: orangered;
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid orangered;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 5px; 
+}
+.robo{
+    display: flex;
+    border: 1px solid #888888;
+    width: auto;
+    margin: 15px ;
+    width: 75%;
+}
+
+.robo label{
+        align-items: left;
+        justify-content: left;
+        margin-right: 15%;
+        width: 100%;
+        font-size: large;
+}
+.lastline{
+    font-size: large;
+    
+}
+/* login box ends*/
+ /* third list ends*/
+
+ /* fourth box starts*/
+ .fourthlist{
+    background-color: white;
+    width: 100%;
+    height: 1000px;
+    border: 1px solid black;
+    justify-content: center;
+ }
+ .fourthlist h1{
+    font-size: 54px;
+    font-weight: bolder;
+ }
+ .first2,.second2{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+        
+ }
+ .box{
+    border: 1px solid #888888;
+    width: 500px;
+ }
+ 
+
+  /* fourth box ends*/

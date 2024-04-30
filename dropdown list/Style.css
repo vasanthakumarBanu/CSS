@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dropdown{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    list-style: none;
+}
+a{
+    display: block;
+    width: 200px;
+    background: #000;
+    color: beige;
+    padding: 10px 0;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{
+    background: skyblue;
+}
+.product{
+    list-style: none;
+    display: none;
+}
+.book{
+    list-style: none;
+    transform: translateX(200px) translateY(-38px);
+    position: absolute;
+    display: none;
+    
+}
+.dropdown li:nth-child(2):hover .product{
+    display: block;
+
+}
+.product li:nth-child(3):hover .book{
+    display: block;
+}

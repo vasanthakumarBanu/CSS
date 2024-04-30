@@ -1,0 +1,113 @@
+body{
+    background-color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.one{
+    background-color: rgb(156, 61, 61);
+    width: 250px;
+    height: 330px;
+    padding: 35px;
+    color: white;
+}
+.img{
+    width: 150px;
+    height: 50px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.text{
+    font-size: 22px;  
+   
+}
+.social{
+    font-size: 12px;
+    font-weight: bold;
+}
+.face{
+    background-color: rgb(47, 47, 195);
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 10px;
+    
+}
+.google{
+    background-color: rgb(243, 71, 71);
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 10px;
+    
+}
+.twit{
+    background-color: rgb(60, 161, 179);
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+
+.two{
+    background-color: white;
+    width: 250px;
+    height: 330px;
+    padding: 35px;
+    
+}
+.two p a{
+    color: rgb(48, 48, 106);   
+}
+.two a,.two p{
+    color: rgb(152, 32, 32);
+}
+button{
+    background-color: rgb(229, 64, 64);
+    border-radius:1px;
+    border: 0px;
+    padding: 5px 10px;
+    color: azure;
+}
+.two h1{
+    font-size: 15px;
+    margin-top:15%;
+}
+.two p{
+    font-size: 10px;
+}
+.textl{
+    width: 100%;
+    font-size: 12px;
+    padding: 10px 0 10px 10px;
+    margin-bottom: 10px;
+    border-color: rgb(196, 195, 195);
+    color: dimgray;
+}
+.check
+{
+   transform: scale(.8);
+   
+}
+.rem{
+    font-weight: bold;
+}
+.two button{
+    margin: 5% 0 5% 0;
+    width: 25%;
+    height: 10%;
+    font-size: 10px;
+}
+.two a{
+    text-decoration: none;
+    font-size: large;
+}
+@media screen and (max-width:1000px)
+  { 
+    .main{
+        display: block;
+    }
+    
+}

@@ -1,0 +1,32 @@
+.one{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    position: static;
+}
+
+.two{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    position: relative;
+    left:50px;
+    top:50px;
+    z-index: 3;
+}
+
+.three{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    position: relative;
+    z-index: 1;
+}
+h1{
+    position: sticky;
+    top: 0px;
+    
+}
